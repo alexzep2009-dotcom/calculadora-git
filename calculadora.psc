@@ -1,5 +1,5 @@
 Algoritmo calculadora
-    Definir num1, num2, suma, resta Como Real
+    Definir num1, num2, suma, resta, multiplicacion Como Real
 
     Escribir "Ingrese el primer número:"
     Leer num1
@@ -9,7 +9,9 @@ Algoritmo calculadora
 
     suma <- num1 + num2
     resta <- num1 - num2
+    multiplicacion <- num1 * num2
 
     Escribir "La suma es: ", suma
     Escribir "La resta es: ", resta
+    Escribir "La multiplicación es: ", multiplicacion
 FinAlgoritmo
